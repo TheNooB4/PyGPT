@@ -72,7 +72,7 @@ python GPT.py</code></pre>
 <p>To run the Python script, you will need to clone the repository using the following command:</p>
 <pre><code>git clone https://github.com/TheNooB4/PyGPT.git</code></pre>
 
-<p>Then navigate into the <code>th</code> directory:</p>
+<p>Then navigate into the <code>PyGPT</code> directory:</p>
 <pre><code>cd PyGPT</code></pre>
 
 <p>Finally, install the required Python modules:</p>
