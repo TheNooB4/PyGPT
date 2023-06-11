@@ -11,7 +11,7 @@ from colorama import init
 init()
 
 # Set up the OpenAI API credentials
-openai.api_key = ""
+openai.api_key = input("Provide your Api : ")
 
 # Set up the figlet font style
 
