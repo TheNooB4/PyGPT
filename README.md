@@ -1,53 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>README.md for PyGPT</title>
-<style>
-    body {
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 22px;
-        background-color: #f9f9f9;
-    }
-    
-    h1 {
-        color: #008080;
-        font-size: 48px;
-        text-align: center;
-    }
-    
-    code {
-        background-color: #f2f2f2;
-        border: 1px solid #ccc;
-        font-size: 20px;
-        padding: 10px;
-        display: inline-block;
-    }
-    
-    p, pre {
-        font-size: 22px;
-        line-height: 1.5em;
-        margin-top: 20px;
-    }
-    
-    pre {
-        background-color: #f2f2f2;
-        border: 1px solid #ccc;
-        padding: 10px;
-        overflow-x: auto;
-    }
-    
-    a {
-        color: #008080;
-        text-decoration: none;
-        border-bottom: 1px solid #008080;
-    }
-    
-    a:hover {
-        background-color: #008080;
-        color: #fff;
-    }
-</style>
-</head>
+
+
+
+
+
+
 <body>
     
 <h1>README.md for PyGPT</h1>
