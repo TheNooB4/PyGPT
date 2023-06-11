@@ -1,3 +1,4 @@
+clear
 termux-setup-storage
 pip install openai
 pip install requests
