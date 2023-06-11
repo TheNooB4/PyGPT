@@ -12,7 +12,10 @@
 <h1>README.md for PyGPT</h1>
 
 <p>About PyGPT:</p>
-<p>This is a python-based ChatGPT and a text to image tool. Do you have any question? AskGpt or you need a photo you can't find on google?... Create one, Just type how you want your image to be and see the magic.</p>
+<p>This is a python-based ChatGPT and a text to image tool. Do you have any question? AskGpt or you need a photo you can't find on google?... Create one, Just type how you want your image to be and see the magic.
+
+
+Currently supporting Android (Termux). I may work on Linux support</p>
 
 
 <p>To run the tool, you will need to install the following packages:</p>
