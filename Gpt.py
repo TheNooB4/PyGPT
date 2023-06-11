@@ -12,18 +12,25 @@ init()
 
 # Set up the OpenAI API credentials
 
-if not os.path.exists("API_Keys"):
-    os.mkdir("API_Keys")
+Keys = 'chatgpt_config'
 
-if os.path.exists("API_Keys/openai.api_key.txt"):
+# create the config directory if it doesn't exist
+if not os.path.exists(Keys):
+    os.mkdir(Keys)
 
-    with open("API_Keys/openai.api_key.txt", "w") as f:
-        f.write(openai.api_key)
-    with open("API_Keys/openai.api_key.txt", "r") as f:
-        openai.api_key = f.read().strip()
+# check if the api key file exists
+api_key_file = os.path.join(Keys, 'openai.api_key.txt')
+if os.path.exists(api_key_file):
+    # read the api key from the file
+    with open(api_key_file, 'r') as f:
+        openai.api_key = f.readline().strip()
 else:
-    openai.api_key = input("Provide your Api :")
+    # get the api key input from the user
+    openai.api_key = input("Provide your OpenAI API key: ")
 
+    # write the api key to the file
+    with open(api_key_file, 'w') as f:
+        f.write(openai.api_key)
 
 
           
