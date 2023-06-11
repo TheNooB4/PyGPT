@@ -15,7 +15,7 @@ init()
           
 
 
-with open('PyGPT/openai_api_key.txt', 'r') as f:
+with open('https://raw.githubusercontent.com/TheNooB4/PyGPT/main/openai_api_key.txt', 'r') as f:
     api_key = f.read().strip()
 
 
