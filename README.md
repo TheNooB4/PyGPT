@@ -51,7 +51,7 @@ Currently supporting Android (Termux). I may work on Linux support</p>
 <pre><code>cd PyGPT</code></pre>
 
 <p>Finally, install the required Python modules:</p>
-<pre><code>pip install -r requirements.txt</code></pre>
+<pre><code>bash req.sh</code></pre>
 
 <p>Now you are ready to run the Python script:</p>
 <pre><code>python Gpt.py</code></pre>
