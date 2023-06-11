@@ -55,7 +55,9 @@ Currently supporting Android (Termux). I may work on Linux support</p>
 
 <p>Now you are ready to run the Python script:</p>
 <pre><code>python Gpt.py</code></pre>
-    
+ 
+ <p>You can update it in directory</p>
+ <pre><code>python update.py</code></pre>
     
  <img src="https://github.com/TheNooB4/PyGPT/blob/main/SS.jpg" alt="PyGPT Screenshot">
 
