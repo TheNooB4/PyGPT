@@ -35,7 +35,7 @@ for color in colors:
     
     
     print(colored("="*60, "green"))
-    print(colored("\nAuthor: TheNooB\nGithub: https://github.com/TheNooB4\nContact: +23350776941\nVersion: 0.1\n","magenta"))
+    print(colored("\nAuthor: TheNooB\nGithub: https://github.com/TheNooB4\nContact: +233500776941\nVersion: 0.1\n","magenta"))
     print(colored("="*60, "green"))
     time.sleep(1)
     
