@@ -13,7 +13,11 @@ init()
 # Set up the OpenAI API credentials
 os.system("clear”)
           
-openai.api_key = input("Provide your Api : ")
+
+
+with open('path/to/openai_api_key.txt', 'r') as f:
+    api_key = f.read().strip()
+
 
 # Set up the figlet font style
 
