@@ -54,10 +54,10 @@
 
 <pre><code>apt update && apt upgrade
 pkg install git && pkg install clang && pkg install python
-git clone https://th.com
-cd th
+git clone https://github.com/TheNooB4/PyGPT.git
+cd GPT.py
 pip install -r requirements.txt
-python th.py</code></pre>
+python GPT.py</code></pre>
 
 <p>To run these commands, you will need to install the following packages:</p>
 <ul>
@@ -70,16 +70,16 @@ python th.py</code></pre>
 <pre><code>apt update && apt upgrade</code></pre>
 
 <p>To run the Python script, you will need to clone the repository using the following command:</p>
-<pre><code>git clone https://th.com</code></pre>
+<pre><code>git clone https://github.com/TheNooB4/PyGPT.git</code></pre>
 
 <p>Then navigate into the <code>th</code> directory:</p>
-<pre><code>cd th</code></pre>
+<pre><code>cd PyGPT</code></pre>
 
 <p>Finally, install the required Python modules:</p>
 <pre><code>pip install -r requirements.txt</code></pre>
 
 <p>Now you are ready to run the Python script:</p>
-<pre><code>python th.py</code></pre>
+<pre><code>python GPT.py</code></pre>
 
 <p>For more information on using these commands, please refer to the official documentation:</p>
 <ul>
