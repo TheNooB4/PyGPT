@@ -1,1 +1,3 @@
-git pull origin main
+import os
+
+os.system("git pull origin main")
