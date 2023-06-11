@@ -8,7 +8,7 @@
 
 
 <body>
-    
+ 
 <h1>README.md for PyGPT</h1>
 
 <p>About PyGPT:</p>
@@ -52,6 +52,9 @@
 
 <p>Now you are ready to run the Python script:</p>
 <pre><code>python Gpt.py</code></pre>
+    
+    
+ <img src="https://github.com/TheNooB4/PyGPT/blob/main/SS.jpg" alt="PyGPT Screenshot">
 
 <p>For more information on using these commands, please refer to the official documentation:</p>
 <ul>
