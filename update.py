@@ -4,6 +4,6 @@ os.system("git pull origin main")
 
 os.system("git fetch")
 os.system("git pull")
-os.system("git pull origin master")
+
 
 
