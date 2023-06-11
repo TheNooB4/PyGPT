@@ -11,7 +11,7 @@ from colorama import init
 init()
 
 # Set up the OpenAI API credentials
-openai.api_key = "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"
+openai.api_key = ""
 
 # Set up the figlet font style
 
@@ -24,7 +24,7 @@ def main_menu():
     
     
     print(colored("="*60, "green"))
-    print(colored("\nAuthor: TheNooB\nGithub: https://github.com/TheNooB4\nContact: +23350776941\nVersion: 0.1\n","magenta"))
+    print(colored("\nAuthor: TheNooB\nGithub: https://github.com/TheNooB4\nContact: +233500776941\nVersion: 0.1\n","magenta"))
     print(colored("="*60, "green"))
     time.sleep(1)
     
