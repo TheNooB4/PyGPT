@@ -12,17 +12,24 @@ init()
 
 # Set up the OpenAI API credentials
 
+if not os.path.exists("API_Keys"):
+    os.mkdir("API_Keys")
+
+if os.path.exists("API_Keys/openai.api_key.txt"):
+else:
+    os.mkdir("API_Keys")
+
+    with open("API_Keys/openai.api_key.txt", "r") as f:
+        openai.api_key = f.read().strip()
+elif:
+    openai.api_key = input("Provide your Api : ")
+
           
-url = "https://raw.githubusercontent.com/TheNooB4/Apis/main/opeinai.api_key.txt?token=GHSAT0AAAAAACDAMJYJTWTZBSNZ2VKGRYEKZEFWMZA"
-r = requests.get(url)
-with open("openai.api_key.txt", "wb") as f:
-    f.write(r.content)
-
-with open("openai.api_key.txt", "r") as f:
-    openai.api_key = f.read().strip()
+          
 
 
-# Set up the figlet font style
+
+
 
 
 # Define the main menu function
