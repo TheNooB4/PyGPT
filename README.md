@@ -15,11 +15,15 @@
 <p>This is a python-based ChatGPT and a text to image tool. Do you have any question? AskGpt or you need a photo you can't find on google?... Create one, Just type how you want your image to be and see the magic.
 
 
+
 Currently supporting Android (Termux). I may work on Linux support</p>
 
 <p>To use this tool make sure you Go to >> https://platform.openai.com << and click on the sign up button. If you already have an account skip this option use temp mail as your email when signing up.</p>
 
-<p/>After you login/signup go to >> https://platform.openai.com/account/api-keys << and click on the create new secrete key button then paste it in the "Provide your Api" space in the tool</p>
+<p/>After you login/signup go to >> https://platform.openai.com/account/api-keys << and click on the create new secrete key button then paste it in the "Provide your Api" space in the tool
+ 
+In case you input an incorrect api key which entered but didn't allow the tool to run, delete the chatgpt_directory by executing:</p>
+<pre><code>rm -rf chatgpt_config</code></pre>
  
 <p>To run the tool, you will need to install the following packages:</p>
 <ul>
