@@ -1,0 +1,7 @@
+openai
+requests
+pyfiglet
+termcolor
+pillow
+colorama
+setuptools
