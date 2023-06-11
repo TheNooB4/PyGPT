@@ -17,7 +17,8 @@ if not os.path.exists("API_Keys"):
 
 if os.path.exists("API_Keys/openai.api_key.txt"):
 
-
+    with open("API_Keys/openai.api_key.txt", "w") as f:
+        f.write(openai.api_key)
     with open("API_Keys/openai.api_key.txt", "r") as f:
         openai.api_key = f.read().strip()
 else:
