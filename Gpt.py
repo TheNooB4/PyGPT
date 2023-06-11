@@ -12,7 +12,7 @@ init()
 
 
 
-ass = "\033[1;36;40m 1. Go to >> \033[1;31mhttps://platform.openai.com \033[1;36;40m<< and click on the sign up button. If you already have an account skip this option use temp mail\n"
+ass = "\033[1;36;40m 1. Go to >> \033[1;31mhttps://platform.openai.com \033[1;36;40m<< and click on the sign up button. If you already have an account skip this option. I advice you use temp mail to register instead of your actual email.\n"
 
 asd = "\033[1;36;40m 2. After you login/signup go to >> \033[1;31mhttps://platform.openai.com/account/api-keys \033[1;36;40m<< and click on the create new secrete key button then paste it below.\n"
 
