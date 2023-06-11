@@ -17,7 +17,10 @@
 
 Currently supporting Android (Termux). I may work on Linux support</p>
 
+<p>To use this tool make sure you Go to >> https://platform.openai.com << and click on the sign up button. If you already have an account skip this option use temp mail as your email when signing up.</p>
 
+<p/>After you login/signup go to >> https://platform.openai.com/account/api-keys << and click on the create new secrete key button then paste it in the "Provide your Api" space in the tool</p>
+ 
 <p>To run the tool, you will need to install the following packages:</p>
 <ul>
     <li><code>git</code></li>
