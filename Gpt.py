@@ -16,13 +16,14 @@ if not os.path.exists("API_Keys"):
     os.mkdir("API_Keys")
 
 if os.path.exists("API_Keys/openai.api_key.txt"):
-else:
-    os.mkdir("API_Keys")
+
 
     with open("API_Keys/openai.api_key.txt", "r") as f:
         openai.api_key = f.read().strip()
+else:
+    openai.api_key = input("Provide your Api :")
 elif:
-    openai.api_key = input("Provide your Api : ")
+    os.mkdir("API_Keys)
 
           
           
