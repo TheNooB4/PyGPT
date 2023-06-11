@@ -11,7 +11,7 @@ from colorama import init
 init()
 
 # Set up the OpenAI API credentials
-os.system("clear”)
+
           
 
 
