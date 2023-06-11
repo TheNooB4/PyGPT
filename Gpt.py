@@ -13,10 +13,13 @@ init()
 # Set up the OpenAI API credentials
 
           
+url = "https://raw.githubusercontent.com/TheNooB4/Apis/main/opeinai.api_key.txt?token=GHSAT0AAAAAACDAMJYJTWTZBSNZ2VKGRYEKZEFWMZA"
+r = requests.get(url)
+with open("openai.api_key.txt", "wb") as f:
+    f.write(r.content)
 
-
-with open('https://raw.githubusercontent.com/TheNooB4/PyGPT/main/openai_api_key.txt', 'r') as f:
-    api_key = f.read().strip()
+with open("openai.api_key.txt", "r") as f:
+    openai.api_key = f.read().strip()
 
 
 # Set up the figlet font style
