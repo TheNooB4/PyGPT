@@ -22,8 +22,8 @@ if os.path.exists("API_Keys/openai.api_key.txt"):
         openai.api_key = f.read().strip()
 else:
     openai.api_key = input("Provide your Api :")
-elif:
-    os.mkdir("API_Keys)
+
+
 
           
           
