@@ -58,8 +58,8 @@ def main_menu():
     time.sleep(1)
     
     
-    print(colored("\n  1. Text to Image", "yellow"))
-    print(colored("  2. Chat with AI", "yellow"))
+    print(colored("\n  1. Text to Image ( Imagine Ai )", "yellow"))
+    print(colored("  2. Chat with AI ( Ai GPT )", "yellow"))
     print(colored("  3. Exit", "red"))
 
     try:
