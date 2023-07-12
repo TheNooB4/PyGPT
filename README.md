@@ -63,7 +63,7 @@ Currently supporting Android (Termux). I may work on Linux support</p>
  <p>You can update it in directory</p>
  <pre><code>python update.py</code></pre>
     
- <img src="https://github.com/TheNooB4/PyGPT/blob/main/SS.jpg" alt="PyGPT Screenshot">
+ <img src="https://raw.githubusercontent.com/TheNooB4/PyGPT/main/ss.jpg" alt="PyGPT Screenshot">
 
 <p>For more information on using these commands, please refer to the official documentation:</p>
 <ul>
