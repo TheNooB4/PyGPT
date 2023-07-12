@@ -2,19 +2,12 @@
 <html>
 <head>
 
-
-
-
-
-
 <body>
  
 <h1>README.md for PyGPT</h1>
 
 <p>About PyGPT:</p>
 <p>This is a python-based ChatGPT and a text to image tool. Do you have any question? AskGpt or you need a photo you can't find on google?... Create one, Just type how you want your image to be and see the magic.
-
-
 
 Currently supporting Android (Termux). I may work on Linux support</p>
 
@@ -28,19 +21,9 @@ Currently supporting Android (Termux). I may work on Linux support</p>
     <li><code>clang</code></li>
     <li><code>python</code></li>
 </ul>
-    
-    
+        
 <p> This is a guide to using the following commannds on your termux terminal:</>
     
-
-
-
-
-
-
-
-
-
 <p>But first of all, you should also ensure that your Android device is up-to-date by running the following command:</p>
 <pre><code>apt update && apt upgrade</code></pre>
 <p>Then install the required packages</p>
@@ -62,6 +45,8 @@ Currently supporting Android (Termux). I may work on Linux support</p>
  
  <p>You can update it in directory</p>
  <pre><code>python update.py</code></pre>
+
+<p>Credits to: Spider Anongreyhat https://github.com/spider863644</p>
     
  <img src="https://raw.githubusercontent.com/TheNooB4/PyGPT/main/ss.jpg" alt="PyGPT Screenshot">
 
