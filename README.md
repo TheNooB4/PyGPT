@@ -40,11 +40,8 @@ Currently supporting Android (Termux). I may work on Linux support</p>
 <p>Finally, install the required Python modules:</p>
 <pre><code>bash req.sh</code></pre>
 
-<p>Now you are ready to run the Python script:</p>
-<pre><code>python Gpt.py</code></pre>
- 
- <p>You can update it in directory</p>
- <pre><code>python update.py</code></pre>
+<p>Now you are ready to run the Python script just type the below Gpt:</p>
+<pre><code>Gpt</code></pre>
 
 <p>Credits to: Spider Anongreyhat https://github.com/spider863644</p>
     
